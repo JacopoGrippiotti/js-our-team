@@ -42,6 +42,7 @@ for(let key in listOfTeamMembers){
 }
 
 const ulElement = document.getElementById('listOfMembers')
+
 for(let i = 0; i < listOfTeamMembers.length; i++){
 
     let liElement = document.createElement('li')
