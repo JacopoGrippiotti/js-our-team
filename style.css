@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#listOfMembers{
+    width: 70%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#listOfMembers div{
+    width: calc((100% / 3) - 40px);
+    margin-top: 40px;
+}
