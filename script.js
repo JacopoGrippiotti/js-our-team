@@ -34,9 +34,13 @@ const listOfTeamMembers = [
         role: 'Graphic Designer',
         photo: 'img/barbara-ramos-graphic-designer.jpg'
     }
-    
-    
 ]
+
+for(let key in listOfTeamMembers){
+
+    console.log(listOfTeamMembers[key].name,listOfTeamMembers[key].role,listOfTeamMembers[key].photo)
+}
+
 
 
 
