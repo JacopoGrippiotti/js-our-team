@@ -41,6 +41,17 @@ for(let key in listOfTeamMembers){
     console.log(listOfTeamMembers[key].name,listOfTeamMembers[key].role,listOfTeamMembers[key].photo)
 }
 
+const ulElement = document.getElementById('listOfMembers')
+for(let i = 0; i < listOfTeamMembers.length; i++){
+
+    let liElement = document.createElement('li')
+
+    liElement.append('name: ', listOfTeamMembers[i].name,' Role: ', listOfTeamMembers[i].role,' photo:  ', listOfTeamMembers[i].photo)
+
+    ulElement.append(liElement)
+}
+
+
 
 
 
