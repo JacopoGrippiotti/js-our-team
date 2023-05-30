@@ -36,15 +36,15 @@ const listOfTeamMembers = [
     }
 ]
 
-for(let key in listOfTeamMembers){
+    
 
-    console.log(listOfTeamMembers[key].name,listOfTeamMembers[key].role,listOfTeamMembers[key].photo)
-}
 
 const divContainer = document.getElementById('listOfMembers')
 
 for(let i = 0; i < listOfTeamMembers.length; i++){
 
+    console.log(listOfTeamMembers[i].name,listOfTeamMembers[i].role,listOfTeamMembers[i].photo)
+    
     let divElement = document.createElement('div')
 
     divElement.append(listOfTeamMembers[i].photo,'name: ', listOfTeamMembers[i].name,'role: ', listOfTeamMembers[i].role)
